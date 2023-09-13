@@ -3,6 +3,14 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "button": [
+        "dist/button"
+      ],
+      "input": [
+        "dist/input"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
